@@ -13,6 +13,11 @@ aside {
   width: 20%;
   order: 0;
 }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+}
 .carousel {
   background-color: greenyellow;
   display: flex;
@@ -43,6 +48,7 @@ aside {
   background-color: crimson;
   width: 20%;
 }
+
 .box3 {
   background-color: darkolivegreen;
   width: 20%;
@@ -66,5 +72,8 @@ figcaption {
   }
   .box1 {
     width: 80%;
+  }
+  aside {
+    width: 100%;
   }
 }
