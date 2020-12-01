@@ -1,1 +1,24 @@
 /*  Add your styling here */
+
+body {
+  background-color: blueviolet;
+}
+.image-container {
+  background-color: darksalmon;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  background-color: cornflowerblue;
+}
+
+.box2 {
+  background-color: crimson;
+}
+.box3 {
+  background-color: darkolivegreen;
+}
+.box4 {
+  background-color: darkorange;
+}
