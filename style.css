@@ -3,6 +3,9 @@
 body {
   background-color: blueviolet;
 }
+header {
+  background-color: deeppink;
+}
 .image-container {
   background-color: darksalmon;
   display: flex;
