@@ -6,22 +6,65 @@ body {
 header {
   background-color: deeppink;
 }
+aside {
+  background-color: goldenrod;
+  display: flex;
+  flex-flow: column wrap;
+  width: 20%;
+  order: 0;
+}
+.carousel {
+  background-color: greenyellow;
+  display: flex;
+  flex-flow: column wrap;
+  width: 40%;
+  order: 1;
+}
 .image-container {
   background-color: darksalmon;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  order: 2;
 }
-
+.box {
+  height: 100px;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
 .box1 {
   background-color: cornflowerblue;
+  width: 20%;
 }
 
 .box2 {
   background-color: crimson;
+  width: 20%;
 }
 .box3 {
   background-color: darkolivegreen;
+  width: 20%;
 }
 .box4 {
   background-color: darkorange;
+  width: 20%;
+}
+figcaption {
+  background-color: floralwhite;
+}
+
+/* media querys */
+
+@media screen and (max-width: 400px) {
+  nav {
+    display: none;
+  }
+  .image-container {
+    flex-flow: column wrap;
+  }
+  .box1 {
+    width: 80%;
+  }
 }
