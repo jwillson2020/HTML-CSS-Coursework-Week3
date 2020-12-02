@@ -5,6 +5,8 @@ body {
 }
 header {
   background-color: deeppink;
+  display: flex;
+  flex-wrap: wrap;
 }
 nav {
   background-color: hotpink;
