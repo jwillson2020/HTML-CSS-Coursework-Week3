@@ -25,9 +25,9 @@ section {
 
 /* carousel code  */
 .carousel {
-  /* background-color: greenyellow; 
+  background-color: greenyellow;
   display: flex;
-  flex-flow: column wrap; */
+  flex-flow: column wrap;
   width: 60%;
   margin: 0.5em;
   order: 1;
