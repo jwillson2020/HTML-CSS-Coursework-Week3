@@ -15,7 +15,7 @@ aside {
   flex-flow: column wrap;
   width: 30%;
   order: 0;
-  margin: 1em;
+  margin: 0.5em;
 }
 
 section {
@@ -27,7 +27,7 @@ section {
   display: flex;
   flex-flow: column wrap;
   width: 60%;
-  margin: 1em;
+  margin: 0.5em;
   order: 1;
 }
 .image-container {
@@ -89,8 +89,10 @@ footer {
 @media screen and (max-width: 650px) {
   aside {
     width: 100%;
+    margin: 0;
   }
   .carousel {
     width: 100%;
+    margin: 0;
   }
 }
