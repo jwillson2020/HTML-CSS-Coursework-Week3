@@ -22,14 +22,69 @@ section {
   display: flex;
   flex-wrap: wrap;
 }
+
+/* carousel code  */
 .carousel {
-  background-color: greenyellow;
+  /* background-color: greenyellow; 
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column wrap; */
   width: 60%;
   margin: 0.5em;
   order: 1;
 }
+.slider {
+  overflow: hidden;
+}
+
+.slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+
+.slider figure img {
+  float: left;
+  width: 20%;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45% {
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
+  75% {
+    left: -300%;
+  }
+
+  95% {
+    left: -300%;
+  }
+
+  100% {
+    left: -400%;
+  }
+}
+body {
+  background-color: blue;
+}
+
+/* 4 images  */
 .image-container {
   background-color: darksalmon;
   display: flex;
