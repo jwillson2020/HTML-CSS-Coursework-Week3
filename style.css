@@ -20,7 +20,9 @@ header {
 .contact {
   text-align: right;
 }
-
+address {
+  text-decoration: none;
+}
 .logo {
 }
 nav {
