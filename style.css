@@ -6,10 +6,16 @@ body {
 header {
   background-color: deeppink;
   display: flex;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   width: auto;
   margin: 0.5em;
   padding: 2em;
+  justify-content: space-between;
+}
+
+.title {
+  font-family: "Pacifico", cursive;
+  font-size: 4em;
 }
 .contact {
   text-align: right;
