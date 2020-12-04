@@ -3,6 +3,7 @@
 body {
   background-color: blueviolet;
 }
+
 header {
   background-color: deeppink;
   display: flex;
@@ -17,7 +18,7 @@ header {
 
 .title {
   font-family: "Pacifico", cursive;
-  font-size: 4em;
+  font-size: 3em;
 }
 h3 {
   margin: -2em;
@@ -53,18 +54,31 @@ a {
 aside {
   background-color: goldenrod;
   display: flex;
+  position: relative;
   flex-flow: column wrap;
   width: 30%;
   order: 0;
   margin: 0.5em;
-  align-items: right;
-}
-.main {
-  width: 80%;
-  margin-top: 2em;
+  align-items: center;
 }
 .welcome {
-  margin-top: -8em;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  z-index: 10;
+  margin-top: 2em;
+}
+.info {
+  opacity: 0.7;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  width: 80%;
+}
+
+.main {
+  width: 80%;
+  margin-top: -3em;
 }
 
 article {
@@ -168,15 +182,18 @@ body {
 .box2 {
   background-color: crimson;
   width: 20%;
+  height: 20%;
 }
 
 .box3 {
   background-color: darkolivegreen;
   width: 20%;
+  height: 20%;
 }
 .box4 {
   background-color: darkorange;
   width: 20%;
+  height: 20%;
 }
 figcaption {
   background-color: floralwhite;
