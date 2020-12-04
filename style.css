@@ -11,11 +11,21 @@ header {
   margin: 0.5em;
   padding: 2em;
   justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 1em;
 }
 
 .title {
   font-family: "Pacifico", cursive;
   font-size: 4em;
+}
+h3 {
+  margin: -2em;
+  font-family: "Pacifico", cursive;
+  font-size: 1.5em;
+  text-align: center;
+  color: lightslategray;
+  text-shadow: 0 0 3px #463e3e, 0 0 5px #121213;
 }
 .contact {
   text-align: right;
