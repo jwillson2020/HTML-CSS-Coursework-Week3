@@ -27,12 +27,18 @@ h3 {
   color: lightslategray;
   text-shadow: 0 0 3px #463e3e, 0 0 5px #121213;
 }
-.contact {
-  text-align: right;
-}
+
 address {
-  text-decoration: none;
+  font-family: Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+  background-color: hotpink;
 }
+
+ol {
+  text-decoration: none;
+  list-style-type: none;
+}
+
 .logo {
 }
 nav {
@@ -190,11 +196,30 @@ footer {
   .image-container {
     flex-flow: column wrap;
   }
+  .logo {
+    width: 40%;
+    height: 40%;
+  }
   .box1 {
     width: 80%;
   }
   aside {
     width: 100%;
+  }
+  header {
+    flex-flow: column wrap;
+    text-align: center;
+    align-items: center;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
+  .title {
+    font-size: 2em;
+  }
+  .header-text {
+    margin-top: -1em;
   }
 }
 
@@ -206,5 +231,8 @@ footer {
   .carousel {
     width: 100%;
     margin: 0;
+  }
+  address {
+    display: none;
   }
 }
