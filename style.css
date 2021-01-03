@@ -18,21 +18,30 @@ header {
 
 .title {
   font-family: "Pacifico", cursive;
-  font-size: 3em;
+  font-size: 2.5em;
+  margin-top: 0.25em;
 }
 h3 {
   margin: -2em;
   font-family: "Pacifico", cursive;
-  font-size: 1.5em;
+  font-size: 1em;
   text-align: center;
   color: lightslategray;
   text-shadow: 0 0 3px #463e3e, 0 0 5px #121213;
+}
+
+.hamburger {
+  display: none;
 }
 
 address {
   font-family: Geneva, Tahoma, sans-serif;
   border-radius: 10px;
   background-color: hotpink;
+  font-size: 12px;
+}
+.contacts {
+  display: none;
 }
 
 ol {
@@ -206,7 +215,7 @@ footer {
 
 /* media querys */
 
-@media screen and (max-width: 400px) {
+@media screen and (min-width: 250px) and (max-width: 400px) {
   nav {
     display: none;
   }
@@ -214,11 +223,26 @@ footer {
     flex-flow: column wrap;
   }
   .logo {
-    width: 40%;
-    height: 40%;
+    width: 30%;
+    height: 30%;
+    margin: 10%;
   }
-  .box1 {
-    width: 80%;
+
+  .hamburger {
+    display: inline;
+    width: 10%;
+  }
+  address {
+    display: none;
+  }
+  h3 {
+    display: none;
+  }
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 95%;
   }
   aside {
     width: 100%;
@@ -227,20 +251,37 @@ footer {
     flex-flow: column wrap;
     text-align: center;
     align-items: center;
+    padding: 0;
   }
 
   h3 {
-    font-size: 1em;
+    font-size: 0.5em;
   }
   .title {
-    font-size: 2em;
+    font-size: 1.5em;
   }
   .header-text {
     margin-top: -1em;
   }
+
+  footer {
+    display: none;
+  }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (min-width: 401px) and (max-width: 650px) {
+  address {
+    display: none;
+  }
+
+  .contacts {
+    display: inline;
+    border-radius: 10px;
+    background-color: hotpink;
+    font-size: 20px;
+    padding: 2px 5px 2px 5px;
+    font-family: "Pacifico", cursive;
+  }
   aside {
     width: 100%;
     margin: 0;
@@ -249,7 +290,16 @@ footer {
     width: 100%;
     margin: 0;
   }
-  address {
+}
+
+@media screen and (min-width: 1000px) {
+  .contacts {
     display: none;
+  }
+  .title {
+  }
+
+  header {
+    align-items: center;
   }
 }
