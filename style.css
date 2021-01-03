@@ -238,6 +238,12 @@ footer {
   h3 {
     display: none;
   }
+  .carousel,
+  .info,
+  .welcome {
+    width: 95%;
+  }
+
   .box1,
   .box2,
   .box3,
@@ -246,6 +252,7 @@ footer {
   }
   aside {
     width: 100%;
+    align-items: center;
   }
   header {
     flex-flow: column wrap;
